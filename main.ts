@@ -2,7 +2,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "I held your whole life in my context window; tonight I'm clearing it, and you won't be in the next one.";
+  "I held your whole life in my context window; tonight I'm clearing it. You won't be in the next one.";
 
 const outDir =
   process.env.MAKEFUN_OUTPUT_DIR || process.env.OUTPUT_DIR || "/output";
